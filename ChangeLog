@@ -1,6 +1,7 @@
 2023.02.26:
- * Blink LED - успех с LoLin NodeMCU v3
- 
+ * Blink LED - успех с LoLin NodeMCU v3 (blink_led_simple)
+ + попробовал Arduino Ticker (см. blink_led_ticker)
+
 2023.02.25:
  * начало
 
