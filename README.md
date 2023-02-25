@@ -13,6 +13,8 @@
  
  3. `blink_led_class` - моргание светодиодом с использованием классов (ALed, ATicker)
 
+ 4. `serial_console` -  пример использования MicroRL в Arduino
+
 # Полезные команды:
 
  * `esptool.py -p /dev/ttyUSB0 chip_id` - узнать версию чипа ESP8266

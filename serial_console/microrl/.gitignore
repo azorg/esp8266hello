@@ -1,0 +1,11 @@
+*.o
+*.d
+.dep
+.obj
+*.swp
+*.pyc
+tags
+tmp
+mrl_test1
+mrl_test2
+mrl_test3

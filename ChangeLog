@@ -1,7 +1,9 @@
-2023.02.26:
- * Blink LED - успех с LoLin NodeMCU v3 (blink_led_simple)
- + попробовал Arduino Ticker (см. blink_led_ticker)
-
 2023.02.25:
+ * Blink LED - успех с LoLin NodeMCU v3 (blink_led_simple)
+ + для WeMos нужно задавать Flash Mode -> DIO
+ + попробовал Arduino Ticker (см. blink_led_ticker)
+ + впервые попробовал MicroRL с Arduino (serial_console)
+
+2023.02.24:
  * начало
 
