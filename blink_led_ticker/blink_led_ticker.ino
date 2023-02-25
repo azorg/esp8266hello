@@ -74,18 +74,16 @@ void on_second()
 uint32_t t0 = 0, t1;
 
 void loop() {
-  for (;;) {
-    if (ticker_flag) {
-      ticker_flag = 0;
-      led_callback();      
-    }
-
-    for (t1 = ticker_cnt; t1 - t0 >= TICKER_HZ; t0 += TICKER_HZ) {
-      on_second();
-    }
-
-    // TODO: тут хорошо бы перевести SoC в легкий сон до следующего прерывания таймера
-    yield();
+  if (ticker_flag) {
+    ticker_flag = 0;
+    led_callback();      
   }
+
+  for (t1 = ticker_cnt; t1 - t0 >= TICKER_HZ; t0 += TICKER_HZ) {
+    on_second();
+  }
+
+  // TODO: тут хорошо бы перевести SoC в легкий сон до следующего прерывания таймера
+  //yield();
 }
 
