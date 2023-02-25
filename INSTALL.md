@@ -100,6 +100,7 @@ picocom -b 115200 /dev/ttyUSB0
  - Tools -> Upload Speed = 921600
  - Tools -> Debug Port -> Serial
  - Tools -> Flash Frequency -> 26MHz
+ - Tools -> Flash Mode -> DIO (для плат WeMos) или QIO для LoLin v3 (нужно подбирать)
  - и т.п. в зависимости о конфигурации "железа"
 
 # 4. Загрузите первый скетч (blink_led_simple)
