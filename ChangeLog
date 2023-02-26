@@ -1,3 +1,7 @@
+2023.02.26:
+ + добавлен blink_led_arduino на основе ABlink и ATicker
+ * попробовал Arduino Uno и ESP32...
+
 2023.02.25:
  * Blink LED - успех с LoLin NodeMCU v3 (blink_led_simple)
  + для WeMos нужно задавать Flash Mode -> DIO

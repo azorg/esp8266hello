@@ -13,7 +13,9 @@
  
  3. `blink_led_class` - моргание светодиодом с использованием классов (ALed, ATicker)
 
- 4. `serial_console` -  пример использования MicroRL в Arduino
+ 4. `blink_led_arduino` - моргание светодиодом с использованием классов (ABlink, ATicker)
+
+ 5. `serial_console` -  пример использования MicroRL в Arduino
 
 # Полезные команды:
 
